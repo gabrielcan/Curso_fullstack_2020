@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Despegar</title>
-  </head>
-  <body>
-      <header></header>
-      <main>
-          <form action="">
-              
-          </form>
-      </main>
-      <footer></footer>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/clase4/Tarea_10112020/stilos.css">
+  <title>Despegarte.com</title>
+</head>
+
+<body>
+  <header>
+    <h1>FORMULARIO </h1>
+    <hr />
+  </header>
+  <main>
+
+    <form action="#" class="cont_form">
+      <div class="titulos">
+
+        <h2>Vuelos con reserva flexible</h2>
+        <h3>
+          Encuentrá pasajes aéreos con la posibilidad de cambiar las fechas de Vuelos
+
+        </h3>
+
+      </div>
+
+      <div class="opcion_radio">
+
+        <input type="radio" name="tipo" id="tipo" checked /> Ida y vuelta
+        <input type="radio" name="tipo" id="tipo" /> Solo ida
+        <input type="radio" name="tipo" id="tipo" /> Multidestino
+
+      </div>
+
+
+
+      <div class="list_origen">
+
+        <label for="origen">
+          <p>Origen</p>
+          <select name="origen" id="origen" class="origen_item">
+            <option value="0" label="🚩 Buenos Aires,Argentina"></option>
+            <option value="1" label="🚩 Barcelona,España"></option>
+            <option value="2" label="🚩 London,Inglaterra"></option>
+            <option value="3" label="🚩 Mendoza,Argentina"></option>
+          </select>
+        </label>
+      </div>
+
+      <div class="list_origen">
+
+        <label for="Destino">
+          <p>Destino</p>
+          <select name="Destino" id="Destino" class="origen_item">
+            <option value="0" label="✈ Buenos Aires,Argentina"></option>
+            <option value="1" label="✈ Barcelona,España"></option>
+            <option value="2" label="✈ London,Inglaterra"></option>
+            <option value="3" label="✈ Mendoza,Argentina"></option>
+          </select>
+        </label>
+      </div>
+
+
+      <dir class="fechas">
+        <p>Fecha de ida y vuelta</p>
+
+        <input type="date" name="Fechaida" id="Fechaida" class="fecha_item" placeholder="🗓 IDA">
+        <input type="date" name="Fechavuelta" id="Fechavuelta" class="fecha_item" placeholder="🗓 VUELTA">
+
+
+      </dir>
+
+      <div class="pasajeros">
+
+        <p>Pasajeros y clase</p>
+        <label for="pasajyclass">
+          <select name="pasajyclass" id="pasajyclass" class="origen_item">
+            <option value="0" label="1 Pasajero,Economico"></option>
+            <option value="1" label="2 Pasajero,Economico"></option>
+            <option value="2" label="1 Pasajero,Ejecutivo"></option>
+            <option value="3" label="2 Pasajero,Ejecutivo"></option>
+          </select>
+        </label>
+
+      </div>
+      <div class="boton">
+
+        <button type="submit" class="boton_item">🔍 BUSCAR</button>
+
+      </div>
+      <br>
+      <div class="check">
+
+        Todavia no decido Fecha <input type="checkbox" name="tilde" id="tilde">
+
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+    <hr />
+    <small>&copy; Rervados todos los derechos al autor</small>
+  </footer>
+</body>
+
 </html>

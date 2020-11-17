@@ -1,0 +1,97 @@
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.cont_form{
+  
+    display: inherit;
+    border-radius: 27px;
+    width: 979px;
+    margin: auto 20%;
+    text-align: start;
+    background-color: #270570;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 1%;
+}
+
+.opcion_radio{
+    display: block;
+}
+
+.list_origen{
+    display: inline-block;
+    margin: auto 0.5%;
+    text-align: center;
+}
+.fechas{
+    display: inline-block;
+    padding: 2px 0px;
+    margin: auto 2%;
+    width: 21%;
+    align-items: center;
+    text-align: center;
+  
+}
+.fecha_item{
+    width: 42%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid #8080804d;
+    height: 33px;
+    margin-bottom: 6%;
+    
+}
+.boton{
+    display: inline-block;
+    overflow: inherit;
+
+}
+
+.boton_item{
+
+    display: inline;
+    width: 150%;
+    padding: 14px;
+    margin: auto 8%;
+    border-radius: 60px;
+    background-color: #FA503F;
+    text-shadow: 1px 0 black;
+    font-size: 13px;
+}
+
+.check{
+    display: inline;
+    text-align: center;
+    margin-left: 422px;
+}
+
+.pasajeros{
+    display: inline-block;
+    text-align: center;
+}
+.Destino{
+    display: inline-block;
+}
+.origen_item{
+    margin: auto 1%;
+    width: 100%;
+    padding: 4%;
+    border-radius: 60px;
+    box-shadow: 1px 1px 8px -2px #9E9E9E;
+    /* border: 0.2px solid gray; */
+    height: 44px;
+    overflow: hidden;
+    border: 1px outset;
+}
+.check{
+    align-content: center;
+}
+
+.titulos{
+    font-size: 14px;
+    text-align: justify;
+    
+}
