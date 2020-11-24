@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posiciones</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        ​
+
+        /* ================Header============== */
+        .cabecera {
+            background-color: #FAF255;
+            height: 70px;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+        }
+
+        .cabecera h3 {
+            margin: 0;
+            font-size: 2rem;
+            padding: 15px;
+        }
+
+        ​
+
+        /* ================Contenedor Robot========== */
+        .marco {
+            position: relative;
+            height: 900px;
+            width: 700px;
+            margin: 70px auto;
+            background-color: white;
+            border: 1px solid black;
+            padding: 30px;
+        }
+
+        ​
+
+        /* ================ROBOT=============== */
+        .cabeza {
+            width: 150px;
+            height: 150px;
+            background-color: #B0D659;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        .ojoDer {
+            ​
+        }
+
+        .ojoIzq {
+            position: absolute;
+            right: 25%;
+            background-color: red;
+            padding: 2px 6px;
+        }
+
+        .cuerpo {
+            ​
+        }
+
+        .brazoIzq {
+            ​
+        }
+
+        .brazoDer {
+            ​
+        }
+
+        .piernaIzq {
+            ​
+        }
+
+        .piernaDer {
+            ​
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h3>Mi Robot BD-1</h3>
+    </header>
+    <section class="marco">
+        <div class="cabeza">
+            cabeza
+            <p class="ojoIzq">*</p>
+        </div>
+        <div class="cuerpo">Cuerpo</div>
+        <div class="brazoIzq">Brazo Izq</div>
+        <div class="brazoDer">Brazo Der</div>
+        <div class="piernaDer">Pierna Der</div>
+    </section>
+</body>
+
+</html>
