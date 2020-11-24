@@ -1,0 +1,85 @@
+
+body{
+    font-family:  Helvetica, Arial, sans-serif; /*Cambiar tipo de letra   */
+    
+    margin:0px; 
+}
+
+/*Barra de navegación*/
+.nav-main{
+
+    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
+}
+
+.nav-main ul{
+    list-style: none;
+    margin:0;
+    padding: 10px;
+}
+
+.nav-main li{
+    display:inline;
+   
+}
+
+.nav-item{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+    padding:10px;
+    /* border-radius: 10px; */
+}
+
+.nav-item:hover{
+    background-color: lightpink;
+    color:purple;
+}
+.nav-item:active{
+    background-color: rgb(243, 88, 88);
+}
+
+.nav-item::before{
+    content:"🎵 ";
+}
+
+.nav-item::after{
+    content:" | ";
+}
+
+/*Cuerpo principal*/
+
+#inicio{
+   
+    margin:30px;
+}
+
+#inicio h1{
+
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+#inicio p{
+   color: rgb(8, 102, 55);
+}
+
+#inicio p::first-letter{
+    font-size: 200%;
+    background-color: coral;
+}
+
+
+/*
+!important
+propiedad style
+ #id 
+.class 
+etiqueta 
+*/
+
+
+
+
+

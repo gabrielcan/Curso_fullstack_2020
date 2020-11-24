@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border:2px solid blueviolet;
+
+}
+
+.box{
+    background-color: coral;
+    border:10px solid red;
+    padding: 20px;
+    width: 32%;
+    height: 250px;
+    margin:0.5%;
+    text-align: center;
+    display:inline-block;
+    
+
+}
