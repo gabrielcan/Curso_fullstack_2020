@@ -35,16 +35,19 @@
 
 .Cabeza {
   position: relative;
-  width: 20%;
-  height: 140px;
-  border: 1px solid rgb(219, 26, 26);
+  display: inline-block;
+  width: 27%;
+  height: 185px;
+  border: 1px solid rgb(21 20 20);
   left: 50%;
   transform: translate(-50%);
   text-align: center;
-  background-color: #a0e0fc;
-  box-shadow: inset 0 0 18px 2px #1093a2;
+  background-color: #7bcef0;
+  box-shadow: inset 0 0 18px 2px #03464647;
   margin: auto 0;
   overflow: hidden;
+  border-radius: 25%;
+  top: 0.3%;
 }
 
 .cont_ojos {
@@ -77,4 +80,105 @@
 
 .img_ojo {
   width: 100%;
+  opacity: 85%;
+}
+.img_boca {
+  width: 100%;
+  opacity: 70%;
+}
+.cont_boca {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+/* Cuerpo */
+
+.cont_cuerpo {
+  display: inline-block;
+  position: relative;
+  margin: auto 0;
+  width: 100%;
+  /* overflow: inherit; */
+  height: 391px;
+}
+
+.brazo_izq {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 16%;
+  height: 260px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #7bcef0;
+  box-shadow: inset 0 0 18px 2px #1093a2;
+  overflow: auto;
+  border-radius: 35px 0px 68px 22px;
+  left: 8.8%;
+}
+.brazo_derech {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 16%;
+  height: 260px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #7bcef0;
+  box-shadow: inset 0 0 18px 2px #1093a2;
+  overflow: auto;
+  left: 75.4%;
+  border-radius: 0px 35px 22px 68px;
+}
+
+.Cuerpo {
+  position: absolute;
+  width: 49%;
+  height: 391px;
+  display: inline-block;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #7bcef0;
+  box-shadow: inset 0 0 18px 2px #1093a2;
+  overflow: auto;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 9px;
+}
+.piern_izq {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #7bcef0;
+  box-shadow: inset -1px -20px 18px 2px #1093a2;
+  margin: auto 0;
+  overflow: hidden;
+  height: 280px;
+  width: 15%;
+  left: 40%;
+  position: absolute;
+  bottom: 7px;
+  transform: translate(-50%);
+  border-radius: 0 0% 30% 30%;
+  text-align: center;
+}
+.piern_derech {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #7bcef0;
+  box-shadow: inset -1px -20px 18px 2px #1093a2;
+  margin: auto 0;
+  overflow: hidden;
+  height: 280px;
+  width: 15%;
+  left: 60%;
+  position: absolute;
+  bottom: 7px;
+  transform: translate(-50%);
+  border-radius: 0 0% 30% 30%;
+  text-align: center;
+}
+
+.piern_derech :hover {
+  background-color: #b42b2b;
 }
